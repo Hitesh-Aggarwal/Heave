@@ -1,0 +1,54 @@
+#username
+{
+    display: block;
+}
+#password
+{
+    display: block;
+}
+.container
+{
+    width: 40%;
+    margin:auto;
+    background-color: #765453;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h2 , .container form {
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.container form {
+    display: table;
+}
+
+.container form div {
+    display: table-row;
+}
+
+.container form div label, .container form div input {
+    display: table-cell;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#submitbtn {
+    border-style: solid;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+#submitbtn a {
+    text-decoration: none;
+    color: white;
+}
